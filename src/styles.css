@@ -1,0 +1,47 @@
+#container {
+    width: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: cadetblue;
+    margin: auto;
+    border: 4px solid blue;
+}
+
+.pad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+/* #Heater-4, #Clap, #Open-HH {
+    align-self: safe center;
+} */
+
+.drum-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 70px;
+    background-color: gray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: gray;
+}
